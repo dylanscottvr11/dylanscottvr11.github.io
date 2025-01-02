@@ -1,0 +1,90 @@
+body {
+    background-color: #0828c6;
+    background-image: url("./images/backimg.avif");
+    text-align: center;
+}
+
+h1 {
+    color: purple;
+    text-shadow: 3px 3px rgb(99, 13, 99);
+    font-size: 100px;
+    font-family: "Chewy";
+    margin-bottom: 0px;
+    margin-top: 0px;
+    
+}
+
+h2 {
+    color: purple;
+    text-shadow: 2px 2px rgb(99, 13, 99);
+    font-size: 30px;
+    font-family: "Chewy";
+    
+}
+
+#grid-container {
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: fit-content;
+    background-color: black;
+    gap: 4px;
+    padding: 4px;
+    border-radius: 2%;
+}
+
+.grid-item {
+    background-color: white;
+    height: 175px;
+    width: 175px;
+    border-radius: 2%;
+}
+
+.available:hover {
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.x-item {
+    background-image: url("./images/x.png");
+    background-size: cover;
+}
+
+.o-item {
+    background-image: url("./images/o.png");
+    background-size: cover;
+}
+
+footer {
+    margin: 30px;
+    color: white;
+    font-family: "Chewy";
+}
+
+button {
+    border: 0px;
+}
+
+input {
+    font-family: "Chewy";
+    font-size: 20px;
+    height: 50px;
+    width: 150px;
+    background-color: purple;
+    color: white;
+    border: 2px solid rgb(56, 3, 56);
+    border-radius: 50%;
+}
+
+input:hover {
+    cursor: pointer;
+    background-color: rgb(99, 13, 99);
+    border: 2px solid white;
+}
+
+.clicked {
+    opacity: 0.5;
+}
